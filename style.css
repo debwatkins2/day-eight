@@ -1,0 +1,63 @@
+@import "https://fonts.googleapis.com/css?family=Lora:400,700"
+
+* {
+
+}
+
+body {
+  font-family: 'Lora', sans-serif;
+  color: white;
+  background-color: #7c7f7f;
+}
+h1 {
+  font-size: 350%;
+  text-align: center;
+}
+.one-half {
+  width: 45%;
+  display: inline-block;
+  padding-left: 6%;
+  margin-top: 5%;
+  box-sizing: border-box;
+}
+.one-half img {
+  width: 100%;
+  height: 300px;
+  margin-left: 5%;
+  box-shadow: 10px 10px 5px rgba(0, 0, 0, .4);
+}
+.one-half p {
+  font-size: 150%;
+  margin-bottom: 5%;
+  margin-left: 5%;
+}
+.sub {
+  font-size: 150%;
+  margin-top: 5%;
+  text-align: center;
+  margin-left: 38%;
+}
+h2  {
+  text-align: center;
+  margin-top: 5%;
+}
+h3 {
+  font-size: 110%;
+  text-align: left;
+  width: 50%;
+  padding: 2%;
+  margin-top: 10%;
+  margin-left: 6%;
+}
+article {
+  width: 63%;
+  margin-left: 8%;
+  margin-bottom: 5%;
+}
+article iframe {
+  box-shadow: 10px 10px 5px rgba(0, 0, 0, .4);
+
+}
+aside {
+  width: 34%;
+}
