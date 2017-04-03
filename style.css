@@ -21,28 +21,23 @@ h1 {
 .one-half {
   width: 45%;
   display: inline-block;
-  padding-left: 6%;
   margin-top: 5%;
-  box-sizing: border-box;
 }
 .one-half img {
-  width: 100%;
+  width: 90%;
   height: 300px;
+  margin-left: 15%;
+  margin-bottom: -8%;
   margin-top: -10%;
-  margin-left: 3%;
-  margin-bottom: -10%;
   box-shadow: 10px 10px 5px rgba(0, 0, 0, .4);
+  display: inline-block;
 }
 .one-half p {
   font-size: 150%;
   margin-bottom: 5%;
   margin-left: 5%;
 }
-.sub {
-  font-size: 150%;
-  margin-top: 2%;
-  text-align: center;
-}
+
 h2  {
   text-align: center;
   margin-top: 5%;
@@ -58,20 +53,6 @@ h3 {
 h4 {
   font-size: 115%;
   width: 75%;
-}
-article, aside {
-  display: inline-block;
-}
-article iframe {
-  margin-left: 20%;
-  box-shadow: 10px 10px 5px rgba(0, 0, 0, .4);
-}
-.marine {
-  width: 100%;
-  height: auto;
-  margin-left: 70%;
-  margin-bottom: 30%;
-  box-shadow: 10px 10px 5px rgba(0, 0, 0, .4);
 }
 .one-part {
   width: 45%;
@@ -91,13 +72,24 @@ article iframe {
   font-size: 112%;
   text-decoration: none;
 }
-.video2 iframe {
-  margin-left: 20%;
-  box-shadow: 10px 10px 5px rgba(0, 0, 0, .4);
+.video-container {
+    position: relative;
+    padding-bottom: 56.25%;
+    padding-top: 35px;
+    height: 0;
+    overflow: hidden;
+}
+.video-container iframe {
+    position: absolute;
+    top:0;
+    left: 0;
+    width: 100%;
+    height: 100%;
 }
 .check-out img {
   margin-left: 38%;
   margin-bottom: 5%;
+  box-shadow: 10px 10px 5px rgba(0, 0, 0, .4);
 }
 footer {
   width: 100%;
@@ -109,19 +101,43 @@ footer p {
   padding-top: 3%;
   text-align: center;
 }
-@media screen and (max-width: 778px) {
+@media screen and (max-width: 783px) {
+  .one-half {
+    width: 100%;
+  }
   .one-half img {
-    width: 600px;
+    width: 100%;
     height: auto;
-    display: block;
+    margin-left: .25%;
+    margin-top: 1%;
+    margin-bottom: 1%;
+  }
+  .sub {
+    margin-bottom: 5%;
+  }
+  .one-part {
+    width: 100%;
+  }
+  .one-part img {
+    width: 100%;
+    height: auto;
+    margin-left: -3%;
+  }
+  .one-part .actor {
   }
 .check-out img {
     width: 100%;
     height: auto;
+    margin-left: -.5%;
 }
 footer  {
     width: 100%;
     height: 100px;
+}
+h3 {
+    width: 90%;
+    text-align: center;
+    margin-left: 2%;
 }
 
 }
